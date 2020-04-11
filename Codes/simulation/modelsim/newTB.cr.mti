@@ -1,0 +1,25 @@
+{C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/testing.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/testing.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testing
+-- Compiling architecture testing of matrix_ctr
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Loading entity matrix_ctr
+** Warning: C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/testing.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} {C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/ram_gpio.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/ram_gpio.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity matrix_ctr
+-- Compiling architecture rtl of matrix_ctr
+
+} {} {}}

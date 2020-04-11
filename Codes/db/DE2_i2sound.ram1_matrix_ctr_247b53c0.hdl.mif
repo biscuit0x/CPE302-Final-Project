@@ -1,0 +1,19 @@
+-- begin_signature
+-- matrix_ctr
+-- end_signature
+WIDTH=8;
+DEPTH=8;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	7 :	00111110;
+	6 :	01000001;
+	5 :	01010101;
+	4 :	01000001;
+	3 :	00111110;
+	2 :	01100110;
+	1 :	01100110;
+	0 :	01100110;
+END;

@@ -1,0 +1,272 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim
+vCLOCK_500
+Z1 !s110 1575361469
+!i10b 1
+!s100 S1U]RQ>LZ[TZ1T`UBh^Df2
+IUYD^b97kRo4H8Qlc3zLGV1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1561092845
+8C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/CLOCK_500.v
+FC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/CLOCK_500.v
+L0 44
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575361469.000000
+!s107 C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/CLOCK_500.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/CLOCK_500.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@c@l@o@c@k_500
+Ecounter_4
+Z7 w1575361161
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z9 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z10 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z11 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z12 8C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/counter.vhd
+Z13 FC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/counter.vhd
+l0
+L5
+VU=dj<z2Xf<fRk5>B45OR53
+!s100 ;XY33z??K6CKoD5liILiX3
+Z14 OV;C;10.5b;63
+32
+R1
+!i10b 1
+R4
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/counter.vhd|
+Z16 !s107 C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/counter.vhd|
+!i113 1
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Abehavioral
+R8
+R9
+R10
+R11
+DEx4 work 9 counter_4 0 22 U=dj<z2Xf<fRk5>B45OR53
+l15
+L13
+VVXLh66SF@YcCb90:c`bJB0
+!s100 ^MZDELDVeg]?0PIEjKm@;1
+R14
+32
+R1
+!i10b 1
+R4
+R15
+R16
+!i113 1
+R17
+R18
+vi2c
+R1
+!i10b 1
+!s100 KbIX>8eGKel?5:T<GL@>i0
+I8BJnSPWc@d9Ud<H2UoLWk2
+R2
+R0
+Z19 w1561092846
+8C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/i2c.v
+FC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/i2c.v
+L0 42
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/i2c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/i2c.v|
+!i113 1
+R5
+R6
+vkeytr
+R1
+!i10b 1
+!s100 c=mHHY00;ZicJHVWCEIMN0
+I@Z5KKFWBc@dU^L5]2Y<z11
+R2
+R0
+R19
+8C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/keytr.v
+FC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/keytr.v
+L0 47
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/keytr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/keytr.v|
+!i113 1
+R5
+R6
+Ematrix_ctr
+Z20 w1575682006
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R8
+R9
+R10
+R11
+R0
+Z22 8C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/ram_gpio.vhd
+Z23 FC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/ram_gpio.vhd
+l0
+L7
+V`GegNU6QiXz27_Qe[oG^Q1
+!s100 [hH?LmoMQ8h0fRf3Qf1W73
+R14
+32
+Z24 !s110 1576007674
+!i10b 1
+Z25 !s108 1576007674.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/ram_gpio.vhd|
+Z27 !s107 C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/ram_gpio.vhd|
+!i113 1
+R17
+R18
+Atesting
+Z28 w1576007673
+R21
+R8
+R9
+R10
+R11
+Z29 DEx4 work 10 matrix_ctr 0 22 `GegNU6QiXz27_Qe[oG^Q1
+Z30 8C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/testing.vhd
+Z31 FC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/testing.vhd
+l22
+L11
+VWT^jV9:eRQ0QeBIU5>6723
+!s100 9kJff^U31k0]Yn?:E]LEz1
+R14
+32
+R24
+!i10b 1
+R25
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/testing.vhd|
+Z33 !s107 C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/simulation/modelsim/testing.vhd|
+!i113 1
+R17
+R18
+Artl
+R21
+R8
+R9
+R10
+R11
+R29
+l49
+L17
+VjVDk8n^EFoH?aDkbb4VSW2
+!s100 CnPJ`91kIOA[8?<;nN16i0
+R14
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R17
+R18
+Amatrix_behavior
+R21
+R8
+R9
+R10
+R11
+DEx4 work 10 matrix_ctr 0 22 NYciCoER=o]VKGP4Y5geZ2
+l28
+L18
+V>PCLeo7[g9;4ojF4BM4ha1
+!s100 kd24jgTXY73ZXSaDTRK0n2
+R14
+32
+R1
+!i10b 1
+R4
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/ram_gpio.vhd|
+!s107 C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/ram_gpio.vhd|
+!i113 1
+R17
+R18
+FC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/ram_gpio.vhd
+w1575360706
+8C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/ram_gpio.vhd
+Etesting
+R28
+R10
+R11
+R0
+R30
+R31
+l0
+L4
+VT@]zB`GlAefA__MTgMPnX1
+!s100 a4hB>czVjAjCUaS3:zjEW0
+R14
+32
+R24
+!i10b 1
+R25
+R32
+R33
+!i113 1
+R17
+R18
+Etop
+Z34 w1575361260
+R21
+R10
+R11
+R0
+Z35 8C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/top.vhd
+Z36 FC:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/top.vhd
+l0
+L5
+VI9^]DgBjJ7>>gQGiE@I2;0
+!s100 mh9U>W8?dZaHbOm0:SMo;3
+R14
+32
+R1
+!i10b 1
+R4
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/top.vhd|
+Z38 !s107 C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/top.vhd|
+!i113 1
+R17
+R18
+Astructural
+R21
+R10
+R11
+DEx4 work 3 top 0 22 I9^]DgBjJ7>>gQGiE@I2;0
+l32
+L12
+VRB3=PKdbNj<_bE37kFk;I0
+!s100 NVeKAEmUM`L@AbD?J^8dP2
+R14
+32
+R1
+!i10b 1
+R4
+R37
+R38
+!i113 1
+R17
+R18

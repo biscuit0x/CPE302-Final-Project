@@ -1,0 +1,28 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity top is 
+port(	clk_50 : in std_logic;
+		addr : in std_logic_vector(7 downto 0);
+		data_out : out std_logic_vector(7 downto 0));
+);
+end ram_gpio;
+
+architecture structural of top is 
+signal cnt_addr : std_logic_vector(7 downto 0);
+component counter port(clk : in std_logic; 
+							  reset : in std_logic; 
+							  cnt : out std_logic_vector(7 downto 0));
+end component;
+component ram_gpio port(clk : in std_logic;
+								addr : in std_logic_vector(7 downto 0);
+								data_out : out std_logic_vector(7 downto 0));
+end component;
+begin
+	U1 : counter port map(clk => clk_50,
+								 reset => rst,
+								 cnt => cnt_addr);
+	U2	: ram_gpio port map(clk => clk_50,
+									addr => cnt_addr, 
+									data_out=>data_out);
+									

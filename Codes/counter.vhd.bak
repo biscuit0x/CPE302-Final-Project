@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity counter is 
+	port(clk : in std_logic; 
+			cnt : out std_logic_vector(7 downto 0));
+end entity counter;
+
+
+architecture behavioral of counter is
+begin
+	process (clk, cnt)
+	begin
+		if (rising_edge(clk)) then
+				if(cnt = "11111111") then 
+					cnt <= '0';
+				else
+					cnt <= cnt + 1;
+				end if;
+		end if;
+end process;
+end behavioral;  

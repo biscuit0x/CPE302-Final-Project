@@ -1,0 +1,155 @@
+# Copyright (C) 1991-2005 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic       
+# functions, and any output files any of the foregoing           
+# (including device programming or simulation files), and any    
+# associated documentation or information are expressly subject  
+# to the terms and conditions of the Altera Program License      
+# Subscription Agreement, Altera MegaCore Function License       
+# Agreement, or other applicable license agreement, including,   
+# without limitation, that your use is for the sole purpose of   
+# programming logic devices manufactured by Altera and sold by   
+# Altera or its authorized distributors.  Please refer to the    
+# applicable agreement for further details.
+
+
+# The default values for assignments are stored in the file
+#		DE2_i2sound_assignment_defaults.qdf
+# If this file doesn't exist, and for assignments not listed, see file
+#		assignment_defaults.qdf
+
+# Altera recommends that you do not modify this file. This
+# file is updated automatically by the Quartus II software
+# and any changes you make may be lost or overwritten.
+
+
+# Project-Wide Assignments
+# ========================
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "5.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:19:12  OCTOBER 26, 2005"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.0
+set_global_assignment -name BDF_FILE DE2_i2sound.bdf
+set_global_assignment -name VERILOG_FILE CLOCK_500.v
+set_global_assignment -name VERILOG_FILE i2c.v
+set_global_assignment -name VERILOG_FILE keytr.v
+
+# Pin & Location Assignments
+# ==========================
+set_location_assignment PIN_G26 -to KEY0
+set_location_assignment PIN_N2 -to 50MHZ
+set_location_assignment PIN_AE22 -to ACK
+set_location_assignment PIN_A6 -to I2C_SCLK
+set_location_assignment PIN_B6 -to I2C_SDAT
+set_location_assignment PIN_C5 -to AUD_ADCLRCK
+set_location_assignment PIN_B5 -to AUD_ADCDAT
+set_location_assignment PIN_C6 -to AUD_DACLRCK
+set_location_assignment PIN_A4 -to AUD_DACDAT
+set_location_assignment PIN_A5 -to AUD_XCK
+set_location_assignment PIN_B4 -to AUD_BCLK
+
+# Analysis & Synthesis Assignments
+# ================================
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name TOP_LEVEL_ENTITY DE2_i2sound
+
+# Fitter Assignments
+# ==================
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+
+set_global_assignment -name FMAX_REQUIREMENT "50 MHz" -section_id 50MHZ
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name VHDL_FILE counter.vhd
+set_global_assignment -name VHDL_FILE top.vhd
+set_location_assignment PIN_M22 -to GPIO_COL[5]
+set_location_assignment PIN_K26 -to GPIO_COL[6]
+set_location_assignment PIN_K25 -to GPIO_COL[7]
+set_location_assignment PIN_N25 -to RESET
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_instance_assignment -name CLOCK_SETTINGS 50MHZ -to 50MHZ -entity TOP
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity TOP -section_id Top
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity TOP -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity TOP -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -entity TOP -section_id Top
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/Waveform.vwf"
+set_location_assignment PIN_M19 -to GPIO_ROW[0]
+set_location_assignment PIN_M20 -to GPIO_ROW[1]
+set_location_assignment PIN_V26 -to GPIO_ROW[2]
+set_location_assignment PIN_N20 -to GPIO_ROW[3]
+set_location_assignment PIN_V24 -to GPIO_ROW[4]
+set_location_assignment PIN_V23 -to GPIO_ROW[5]
+set_location_assignment PIN_W25 -to GPIO_ROW[6]
+set_location_assignment PIN_W23 -to GPIO_ROW[7]
+set_instance_assignment -name CLOCK_SETTINGS 50MHZ -to 50MHZ
+set_global_assignment -name CDF_FILE DE2_i2sound.cdf
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE stp5.stp
+set_global_assignment -name SLD_NODE_CREATOR_ID 110 -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_ENTITY_NAME sld_signaltap -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_INFO=805334528" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_POWER_UP_TRIGGER=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ATTRIBUTE_MEM_MODE=OFF" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_IN_ENABLED=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL_PIPELINE=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ENABLE_ADVANCED_TRIGGER=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_FLOW_USE_GENERATED=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_BITS=2" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_BUFFER_FULL_STOP=0" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_CURRENT_RESOURCE_WIDTH=0" -section_id auto_signaltap_0
+set_global_assignment -name VHDL_FILE sipo.vhd
+set_global_assignment -name VHDL_FILE aud_ctr.vhd
+set_global_assignment -name VHDL_FILE SIPO8.vhd
+set_global_assignment -name VHDL_FILE ave_cal.vhd
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SEGMENT_SIZE=2048" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_SAMPLE_DEPTH=2048" -section_id auto_signaltap_0
+set_global_assignment -name VHDL_FILE aud_dec.vhd
+set_global_assignment -name VHDL_FILE clk_mult.vhd
+set_instance_assignment -name CONNECT_PIN_TO_SLD_NODE_ENTITY_PORT acq_clk -to auto_stp_external_clock_0 -section_id auto_signaltap_0
+set_global_assignment -name VHDL_FILE d_ff.vhd
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[0] -to AUD_ADCLRCK -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[1] -to AUD_BCLK -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[0] -to AUD_ADCLRCK -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[1] -to AUD_BCLK -section_id auto_signaltap_0
+set_global_assignment -name VHDL_FILE clk_mult1.vhd
+set_global_assignment -name VHDL_FILE clk_mult2.vhd
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_storage_qualifier_in[0] -to AUD_ADCLRCK -section_id auto_signaltap_0
+set_instance_assignment -name CONNECT_TO_SLD_NODE_ENTITY_PORT acq_storage_qualifier_in[1] -to AUD_BCLK -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STATE_FLOW_MGR_ENTITY=sld_reserved_DE2_i2sound_auto_signaltap_0_flow_mgr_e982" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_GAP_RECORD=1" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_MODE=TRANSITIONAL" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_LEVEL=2" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_ADVANCED_TRIGGER_ENTITY=basic,1,basic,1," -section_id auto_signaltap_0
+set_global_assignment -name VHDL_FILE aud_visual.vhd
+set_global_assignment -name VHDL_FILE matrix_ctr.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[2] -to AUD_ADCDAT -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[3] -to KEY0 -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[4] -to rst -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_trigger_in[5] -to ~GND -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[2] -to AUD_ADCDAT -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[3] -to KEY0 -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[4] -to rst -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_data_in[5] -to ~GND -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_storage_qualifier_in[2] -to AUD_ADCDAT -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_storage_qualifier_in[3] -to KEY0 -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_storage_qualifier_in[4] -to rst -section_id auto_signaltap_0
+set_instance_assignment -name POST_FIT_CONNECT_TO_SLD_NODE_ENTITY_PORT acq_storage_qualifier_in[5] -to ~GND -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_DATA_BITS=6" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_TRIGGER_BITS=6" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_BITS=6" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK=0000000000000000000000000000000000000000000000000000000000" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_INVERSION_MASK_LENGTH=58" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=7" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_LOWORD=60867" -section_id auto_signaltap_0
+set_global_assignment -name SLD_NODE_PARAMETER_ASSIGNMENT "SLD_NODE_CRC_HIWORD=31138" -section_id auto_signaltap_0
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SLD_FILE "C:/Users/peace/Desktop/Computer Engineering/DE2_System_v1.6/DE2_demonstrations/DE2_i2sound/stp5_auto_stripped.stp"

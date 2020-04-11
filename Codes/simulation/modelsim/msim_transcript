@@ -1,0 +1,1516 @@
+# vsim -gui "+altera" -l msim_transcript work.matrix_ctr 
+# Start time: 17:53:11 on Dec 06,2019
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.matrix_ctr(testing)
+# ** Warning: (vsim-3035) Instantiation depth of '/matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0' is 51. This might indicate a recursive instantiation. Increasing limit to 75.
+# ** Error: (vsim-3036) Instantiation depth of '/matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0' is 75. Assuming recursive instantiation.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/data(7) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/data(6) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/data(5) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/data(4) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/data(3) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/data(2) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/data(1) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized inout port /matrix_ctr/u0/data(0) has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/col(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /matrix_ctr/u0/row(7 downto 0) has no driver.
+# This port will contribute value (UUUUUUUU) to the signal network.
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/matrix_ctr/u0/clk500 \
+sim:/matrix_ctr/u0/clkLR0 \
+sim:/matrix_ctr/u0/rst0 \
+sim:/matrix_ctr/u0/data_in0 \
+sim:/matrix_ctr/u0/row0 \
+sim:/matrix_ctr/u0/col0
+force -freeze sim:/matrix_ctr/u0/rst0 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+# Break key hit
+run -all
+# End time: 15:19:43 on Dec 07,2019, Elapsed time: 21:26:32
+# Errors: 2, Warnings: 741
